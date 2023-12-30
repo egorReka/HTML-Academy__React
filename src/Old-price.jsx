@@ -1,3 +1,6 @@
-export function OldPrice() {
-  return <del>55555 ₽</del>
+/* eslint-disable react/prop-types */
+function OldPrice({ value }) {
+  return <del>{value} ₽</del>
 }
+
+export default OldPrice;

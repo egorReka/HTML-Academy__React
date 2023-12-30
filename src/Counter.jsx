@@ -1,4 +1,4 @@
-export function Counter() {
+function Counter() {
   return (
     <>
       <button type="button">-</button>
@@ -7,3 +7,5 @@ export function Counter() {
     </>
   )
 }
+
+export default Counter;

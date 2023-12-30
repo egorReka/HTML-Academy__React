@@ -1,3 +1,6 @@
-export function Article() {
-  return <small>Артикул: 2840367</small>
+/* eslint-disable react/prop-types */
+function Article({ children }) {
+  return <small>Артикул: {children}</small>
 }
+
+export default Article;

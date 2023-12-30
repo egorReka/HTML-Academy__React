@@ -1,3 +1,6 @@
-export function Title() {
-  return <h1>3D принтер</h1>
+/* eslint-disable react/prop-types */
+function Title({ children }) {
+  return <h1>{children}</h1>
 }
+
+export default Title;
